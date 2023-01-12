@@ -3,7 +3,8 @@
 #include <string.h>
 
 main() {
-	char username[20], password[20], attempts=0;
+	char username[20], password[20];
+	int attempts=0;
 	
 	top:
 	clrscr();
